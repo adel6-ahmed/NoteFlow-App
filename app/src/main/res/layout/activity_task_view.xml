@@ -1,0 +1,46 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/gradient_background"
+    android:elevation="4dp"
+    android:clipToPadding="false">
+
+    <!-- عنوان المهمة -->
+    <TextView
+        android:id="@+id/taskTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Task Title"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#FF6F00"
+        android:layout_marginBottom="12dp"
+        android:fontFamily="@font/roboto_regular"
+        android:letterSpacing="0.02"/>
+
+    <!-- وصف المهمة -->
+    <TextView
+        android:id="@+id/taskDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Task Description"
+        android:textSize="16sp"
+        android:textColor="#333333"
+        android:layout_marginBottom="12dp"
+        android:fontFamily="@font/roboto_regular"
+        android:letterSpacing="0.01"/>
+
+    <!-- تاريخ المهمة -->
+    <TextView
+        android:id="@+id/taskDeadline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Task Deadline"
+        android:textSize="14sp"
+        android:textColor="#007BFF"
+        android:fontFamily="@font/roboto_regular" />
+
+</LinearLayout>

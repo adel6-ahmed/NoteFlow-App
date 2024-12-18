@@ -1,0 +1,42 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Section 1: Appearance -->
+    <PreferenceCategory
+        android:key="appearance_category"
+        android:title="Appearance">
+
+        <!-- Dark Mode -->
+        <SwitchPreferenceCompat
+            android:key="dark_mode"
+            android:title="Dark Mode"
+            android:summary="Enable or disable dark mode"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+
+    <!-- Section 2: Notifications -->
+    <PreferenceCategory
+        android:key="notifications_category"
+        android:title="Notifications">
+
+        <!-- Notifications -->
+        <SwitchPreferenceCompat
+            android:key="notifications"
+            android:title="Enable Notifications"
+            android:summary="Turn notifications on or off"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+
+    <!-- Section 3: Account -->
+    <PreferenceCategory
+        android:key="account_category"
+        android:title="Account">
+
+        <!-- Logout -->
+        <Preference
+            android:key="logout"
+            android:title="Logout"
+            android:summary="Sign out from your account"
+            android:icon="@drawable/ic_logout" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

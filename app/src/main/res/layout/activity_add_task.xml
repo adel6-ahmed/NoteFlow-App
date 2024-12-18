@@ -1,0 +1,65 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"> <!-- تعيين التدرج -->
+
+    <!-- محتوى الشاشة -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- حقول إدخال المهمة -->
+        <EditText
+            android:id="@+id/titleEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Title"
+            android:background="@drawable/edittext_background"
+            android:padding="12dp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Description Field -->
+        <EditText
+            android:id="@+id/descriptionEditText"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:hint="Description"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/rounded_edit_text"
+            android:padding="12dp"
+            android:textColorHint="#B0B0B0"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:minHeight="48dp"
+            android:gravity="top"
+            android:contentDescription="Enter the description of the note"
+            android:inputType="textMultiLine"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/deadlineEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Deadline (yyyy-mm-dd)"
+            android:background="@drawable/edittext_background"
+            android:padding="12dp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="16dp" />
+
+         <!-- زر حفظ المهمة -->
+        <Button
+            android:id="@+id/saveTaskButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Save Task"
+            android:backgroundTint="#FF7043"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

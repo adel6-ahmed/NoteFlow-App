@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/gradient_background">
+
+    <!-- Title Field -->
+    <EditText
+        android:id="@+id/titleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_edit_text"
+        android:padding="12dp"
+        android:textColorHint="#B0B0B0"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:minHeight="48dp"
+        android:contentDescription="Enter the title of the note" />
+
+    <!-- Description Field -->
+    <EditText
+        android:id="@+id/descriptionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:hint="Description"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rounded_edit_text"
+        android:padding="12dp"
+        android:textColorHint="#000000"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:minHeight="48dp"
+        android:gravity="top"
+        android:contentDescription="Enter the description of the note"
+        android:inputType="textMultiLine" />
+
+    <!-- Deadline Field -->
+    <EditText
+        android:id="@+id/deadlineEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Deadline (yyyy-mm-dd)"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rounded_edit_text"
+        android:padding="12dp"
+        android:textColorHint="#00000000"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:minHeight="48dp"
+        android:contentDescription="Enter the deadline date" />
+
+    <!-- Update Task Button -->
+    <Button
+        android:id="@+id/updateTaskButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Update Task"
+        android:textColor="#FF9800"
+        android:textStyle="bold"
+        android:background="@drawable/rounded_button"
+        android:textSize="16sp"
+        android:minHeight="48dp" />
+
+    <!-- Delete Task Button -->
+    <Button
+        android:id="@+id/deleteTaskButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Delete Task"
+        android:textColor="#FF0000"
+        android:textSize="16sp"
+        android:background="?android:attr/selectableItemBackground"
+        android:minHeight="48dp" />
+
+</LinearLayout>

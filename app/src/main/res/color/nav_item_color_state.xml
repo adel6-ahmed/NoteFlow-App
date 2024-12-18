@@ -1,0 +1,6 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- اللون عند اختيار الأيقونة -->
+    <item android:color="@color/orange" android:state_checked="true"/>
+    <!-- اللون عند عدم اختيار الأيقونة -->
+    <item android:color="@color/colorUnselected"/>
+</selector>

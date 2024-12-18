@@ -1,0 +1,33 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- حالة التركيز -->
+    <item android:state_focused="true">
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="@android:color/transparent" />
+                </shape>
+            </item>
+            <item android:bottom="2dp">
+                <shape android:shape="rectangle">
+                    <solid android:color="#FFD700" /> <!-- اللون الأصفر -->
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+    <!-- الحالة العادية -->
+    <item>
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="@android:color/transparent" />
+                </shape>
+            </item>
+            <item android:bottom="2dp">
+                <shape android:shape="rectangle">
+                    <solid android:color="#BDBDBD" /> <!-- اللون الرمادي -->
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

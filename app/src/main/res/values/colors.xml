@@ -1,0 +1,56 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="background">#F9FAFB</color>
+    <color name="primary">#FFA500</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="nav_item_color">#000000</color>
+    <color name="primaryColor">#FFA500</color>
+    <color name="secondaryColor">#03DAC5</color>
+    <color name="yellow_light">#FFF9E5</color>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="buttonBorder">#FF6200EE</color>
+    <color name="button_color">#03DAC5</color> <!-- لون الأزرار -->
+    <color name="blue_light">#64B5F6</color> <!-- أزرق فاتح -->
+    <color name="purple_light">#BA68C8</color> <!-- بنفسجي فاتح -->
+    <color name="blue_dark">#1E88E5</color> <!-- أزرق داكن -->
+    <color name="green_light">#81C784</color> <!-- أخضر فاتح -->
+
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorStart">#FF9800</color>
+    <color name="colorEnd">#FF5722</color>
+    <color name="bottom_nav_item_color">#FF5722</color>
+    <color name="orange">#FFA500</color>
+    <color name="secondary">#FF4081</color> <!-- اختر اللون المناسب للتصميم -->
+
+    <color name="orange_light">#FFCC80</color>
+    <color name="transparent">#00000000</color>
+    <color name="colorSelected">#FFA500</color>
+    <color name="colorUnselected">#757575</color>
+    <color name="green">#4CAF50</color> <!-- كود اللون الأخضر -->
+
+    <!-- Removed duplicate definition for nav_bar_color -->
+    <color name="nav_bar_color">#FF5722</color> <!-- اللون الخلفي -->
+
+    <!-- Removed duplicate definition for nav_bar_text_color -->
+    <color name="nav_bar_text_color">#FFFFFF</color> <!-- لون النصوص في شريط التنقل -->
+
+    <color name="primary_light">#BB86FC</color>
+    <color name="primary_dark">#3700B3</color>
+    <color name="actionbar_text_color">#FFFFFF</color>
+    <color name="actionbar_color">#FF5733</color>
+    <color name="appbar_color">#FF5733</color>
+
+    <!-- Corrected the name of the selected icon color -->
+    <color name="nav_bar_selected_icon_color">#FF5722</color>
+
+    <!-- Color for bottom navigation unselected item icon -->
+    <color name="nav_bar_unselected_icon_color">#B0BEC5</color>
+
+    <!-- Color for bottom navigation selected item text -->
+    <color name="nav_bar_selected_text_color">#FF5722</color>
+
+    <!-- Color for bottom navigation unselected item text -->
+    <color name="nav_bar_unselected_text_color">#B0BEC5</color>
+</resources>

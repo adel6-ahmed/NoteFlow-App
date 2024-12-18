@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    
+    <!-- Home Item -->
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="@string/home"
+        android:iconTint="@color/white"
+        android:titleTextColor="@color/white"
+        app:showAsAction="ifRoom"
+        app:actionLayout="@layout/custom_nav_item" />
+    
+    <!-- Profile Item -->
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_profile"
+        android:title="@string/profile"
+        android:iconTint="@color/white"
+        android:titleTextColor="@color/white"
+        app:showAsAction="ifRoom"
+        app:actionLayout="@layout/custom_nav_item" />
+    
+    <!-- Settings Item -->
+    <item
+        android:id="@+id/nav_settings"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/settings"
+        android:iconTint="@color/white"
+        android:titleTextColor="@color/white"
+        app:showAsAction="ifRoom"
+        app:actionLayout="@layout/custom_nav_item" />
+
+</menu>

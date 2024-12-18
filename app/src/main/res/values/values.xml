@@ -1,0 +1,4 @@
+<resources>
+    <string name="some_text">@string/some_string</string>
+    <integer name="some_integer">10</integer>
+</resources>

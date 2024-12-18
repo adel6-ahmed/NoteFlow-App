@@ -1,0 +1,9 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FF3B30" /> <!-- اللون الأحمر -->
+    <corners android:radius="8dp" /> <!-- الزوايا الدائرية -->
+    <padding
+        android:left="8dp"
+        android:top="8dp"
+        android:right="8dp"
+        android:bottom="8dp" /> <!-- الحواف الداخلية -->
+</shape>

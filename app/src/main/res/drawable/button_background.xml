@@ -1,0 +1,12 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- لون خلفية الزر -->
+    <solid android:color="@color/colorPrimary" />
+
+    <!-- الحواف المستديرة -->
+    <corners android:radius="12dp" />
+
+    <!-- الإطار -->
+    <stroke
+        android:width="2dp"
+        android:color="@color/buttonBorder" />
+</shape>
